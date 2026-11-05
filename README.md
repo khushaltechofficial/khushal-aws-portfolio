@@ -1,65 +1,98 @@
-# My Portfolio Website - Overview 🚀
+# Khushal — 3D Interactive AI & Data Science Portfolio 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+> **AWS Student Builder Challenge: Build Your Tech Superpower**  
+> Deployed with **AWS Amplify Hosting** • Powered by **Three.js, WebGL & GSAP**
 
----
-
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
+[![AWS Amplify](https://img.shields.io/badge/AWS-Amplify%20Hosting-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)](https://aws.amazon.com/amplify/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 🛠️ Instructions
+## 👨‍💻 About Me
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+- **Name:** Khushal
+- **Education:** Bachelor of Computer Applications (BCA - Data Science), **SGT University**
+- **Tagline:** *"Data Science student building AI that actually helps people"*
+- **Email:** [smartkhushal2007@gmail.com](mailto:smartkhushal2007@gmail.com)
+- **LinkedIn:** [linkedin.com/in/khushal-909426380](https://www.linkedin.com/in/khushal-909426380/)
+- **GitHub:** [github.com/khushaltechofficial](https://github.com/khushaltechofficial)
+- **Instagram:** [@vyron_ai_assistant](https://www.instagram.com/vyron_ai_assistant/)
 
 ---
 
-## 🎨 Assets Usage
+## 🌟 Featured Projects
 
-Some 3D assets included in this repository are free to use for learning purposes.
+### 1. 💳 Credit Keeper (Android App)
+- **Category:** Personal Finance & Digital Khata
+- **Tech:** Python, Data Management, Android, Cloud Sync
+- **Link:** [Live on Google Play Store](https://play.google.com/store/apps/details?id=com.creditkeeper.credit_keeper&hl=en_IN)
+- **Features:** A simple, reliable application to track customer credits, pending dues, and everyday money owed with real-time cloud synchronization.
 
-However:
+### 2. 🤖 Vyron AI Assistant
+- **Category:** Autonomous AI Ecosystem & Desktop Assistant
+- **Tech:** Python, Large Language Models (LLMs), Computer Vision, Subagent Architecture
+- **Link:** [Live Demo](https://vyron-nu.vercel.app/) • [Public Repo](https://github.com/khushaltechofficial/vyron-os-public)
+- **Features:** Next-gen desktop AI companion featuring dynamic subagent orchestration, vision processing, and personalized voice/text workflows.
 
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+### 3. ☁️ AWS Cloud Deployed Portfolio
+- **Category:** 3D WebGL Web Architecture
+- **Tech:** AWS Amplify Hosting, Amazon CloudFront CDN, Three.js, Rapier Physics, GSAP
+- **Features:** Full continuous delivery (CI/CD) pipeline on AWS with global CDN edge caching for heavy 3D GLB/HDR models.
 
 ---
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## ⚡ Tech Superpowers
+
+- **Languages & Frameworks:** Python, SQL, JavaScript, TypeScript, React, HTML5/CSS3
+- **Data & AI:** Machine Learning Basics, Prompt Engineering, LLM Integrations, Data Management
+- **Cloud & DevOps:** AWS Amplify Hosting, Amazon CloudFront CDN, Git, GitHub Actions
+
+---
+
+## ☁️ AWS Architecture & Services Used
+
+```
+[ GitHub: khushal-aws-portfolio ]
+             │ (Webhook CI/CD)
+             ▼
+[ AWS Amplify Hosting ]
+             │ (Global Deployment)
+             ▼
+[ Amazon CloudFront CDN ] ── (Low Latency Edge Caching)
+             │
+             ▼
+[ End User Browser ] ─── (Interactive 3D WebGL / Physics)
+```
+
+1. **AWS Amplify Hosting:** Automatic builds and static deployment directly linked to this Git repository.
+2. **Amazon CloudFront CDN:** Delivers 3D models and compressed assets worldwide in under 30ms.
+3. **AWS Certificate Manager (ACM):** Automated SSL/TLS certificates for HTTPS security.
+
+---
+
+## 🛠️ Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/khushaltechofficial/khushal-aws-portfolio.git
+
+# Navigate to project directory
+cd khushal-aws-portfolio
+
+# Install dependencies
+npm install
+
+# Start local dev server
+npm run dev
+
+# Build for production
+npm run build
+```
 
 ---
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+MIT License © 2026 [Khushal](https://github.com/khushaltechofficial)
